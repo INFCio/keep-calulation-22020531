@@ -1,0 +1,15 @@
+{
+  "background_color": "#ffffff",
+  "description": "Keep Calulation!",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "name": "Keep Calculation",
+  "short_name": "Keep Calculation",
+  "start_url": "/index.html"
+}
