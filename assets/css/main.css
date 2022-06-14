@@ -268,7 +268,7 @@ button:hover {
 }
 
 .addKeep{
-  width: 268px;
+  width: calc(100% - 77px);
   height: calc(100vh - 120px);
   margin-bottom: 0;
   padding: 16px;
@@ -297,6 +297,7 @@ button:hover {
   flex-direction: column;
   display: flex;
   padding: 0;
+  width: calc(100% - 40px);
 }
 
 .card:hover {
@@ -309,7 +310,7 @@ button:hover {
   cursor: pointer;
   padding: 16px;
   overflow-x: auto;
-  max-width: 300px;
+  max-width: calc(100% - 32px);
 }
 
 .card .date{
