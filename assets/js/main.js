@@ -14,7 +14,7 @@ if ("serviceWorker" in navigator) {
   // wait for the page to load
   window.addEventListener("load", async () => {
     // register the service worker from the file specified
-    const registration = await navigator.serviceWorker.register("/sw.js");
+    const registration = await navigator.serviceWorker.register("./sw.js");
 
     registration.addEventListener("updatefound", () => {
       if (registration.installing) {

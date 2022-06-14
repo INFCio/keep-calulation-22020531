@@ -4,21 +4,21 @@ self.addEventListener("install", (e) => {
       .open("com.infc.keep-calculation")
       .then((cache) =>
         cache.addAll([
-          "/",
-          "/signout.svg",
-          "/index.html",
-          "/assets/css/main.css",
-          "/assets/js/main.js",
-          "/assets/js/NTechDOM.js",
-          "/modules/addkeep.js",
-          "/modules/forget.js",
-          "/modules/header.js",
-          "/modules/home.js",
-          "/modules/keep-calculation.js",
-          "/modules/loading.js",
-          "/modules/login.js",
-          "/modules/pages.js",
-          "/modules/signup.js",
+          "./",
+          "./signout.svg",
+          "./index.html",
+          "./assets/css/main.css",
+          "./assets/js/main.js",
+          "./assets/js/NTechDOM.js",
+          "./modules/addkeep.js",
+          "./modules/forget.js",
+          "./modules/header.js",
+          "./modules/home.js",
+          "./modules/keep-calculation.js",
+          "./modules/loading.js",
+          "./modules/login.js",
+          "./modules/pages.js",
+          "./modules/signup.js",
         ])
       )
   );
